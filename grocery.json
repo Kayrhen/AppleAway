@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"4.7.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"grocery"},
+{"type":"table","name":"groceryorder","database":"grocery","data":
+[
+{"Product_id":"1","Quantity":"1","User_id":"3"},
+{"Product_id":"4","Quantity":"3","User_id":"3"}
+]
+}
+,{"type":"table","name":"product","database":"grocery","data":
+[
+{"Product_id":"1","Product_name":"Apple","Unit_price":"2","Image":"http:\/\/images.all-free-download.com\/images\/graphiclarge\/fresh_red_apple_stock_photo_167147.jpg","FoodGroup":"1"},
+{"Product_id":"2","Product_name":"Banana","Unit_price":"2","Image":"http:\/\/images.all-free-download.com\/images\/graphiclarge\/fresh_banana_picture_167146.jpg","FoodGroup":"1"},
+{"Product_id":"3","Product_name":"Kiwi","Unit_price":"1","Image":"http:\/\/images.all-free-download.com\/images\/graphiclarge\/kiwi_fruit_kiwi_fruit_221884.jpg","FoodGroup":"1"},
+{"Product_id":"4","Product_name":"Cabbage","Unit_price":"2","Image":"https:\/\/thumbs.dreamstime.com\/z\/cabbage-head-2639708.jpg","FoodGroup":"2"}
+]
+}
+,{"type":"table","name":"users","database":"grocery","data":
+[
+{"User_id":"2","Name":"Karen","Email":"karen.ding@yahoo.com","Password":"sarc","Address":"21 Springs"},
+{"User_id":"3","Name":"Ryan Ding","Email":"ryanding@yahoo.com","Password":"123","Address":"10010 SPRINGS"}
+]
+}
+]
